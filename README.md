@@ -8,10 +8,10 @@ Use of any further dependencies besides React, Redux, Firebase and create-react-
 
 1. Clone this repo and create your own git repository.
 2. Push your git repo to either github, bitbucket or gitlab
-3. Create a free Firebase project at [https://firebase.google.com/](firebase.google.com)
+3. Create a free Firebase project at [firebase.google.com](https://firebase.google.com/)
 4. In the project's database page, import the provided JSON from the data.json file.
-5. Bootstrap a new React app with [https://github.com/facebookincubator/create-react-app](create-react-app)
-6. Follow the Firebase Web SDK setup guide ([https://firebase.google.com/docs/web/setup](here)) to initialize Firebase in your react app.
+5. Bootstrap a new React app with [create-react-app](https://github.com/facebookincubator/create-react-app)
+6. Follow the [Firebase Web SDK setup guide](https://firebase.google.com/docs/web/setup) to initialize Firebase in your react app.
 7. The provided data structure contains a list of users and accounts. Each user has an account and each account can contain one or more apps. In your react app, get the users from Firebase and for each user get the appropriate account.
 8. Render a list of users, displaying the account id and app titles belonging to each user.
 9. When done, send us a link to your git repo!
