@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.parser": "flow",
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "none",
+  "prettier.useTabs": false,
+
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "yarn",
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+
+  "flow.enabled": true,
+  "flow.useNPMPackagedFlow": true,
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "flow.runOnEdit": false,
+
+  "terminal.integrated.env.linux": {}
+}
