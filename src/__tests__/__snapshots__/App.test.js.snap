@@ -31,15 +31,6 @@ ShallowWrapper {
                     Welcome to React
           </h1>
 </header>,
-        <p
-          className="App-intro"
->
-          To get started, edit 
-          <code>
-                    src/App.js
-          </code>
-           and save to reload.
-</p>,
         <UserTable />,
       ],
       "className": "App",
@@ -98,38 +89,6 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "To get started, edit ",
-            <code>
-              src/App.js
-</code>,
-            " and save to reload.",
-          ],
-          "className": "App-intro",
-        },
-        "ref": null,
-        "rendered": Array [
-          "To get started, edit ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "src/App.js",
-            },
-            "ref": null,
-            "rendered": "src/App.js",
-            "type": "code",
-          },
-          " and save to reload.",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
         "nodeType": "function",
         "props": Object {},
         "ref": null,
@@ -160,15 +119,6 @@ ShallowWrapper {
                         Welcome to React
             </h1>
 </header>,
-          <p
-            className="App-intro"
->
-            To get started, edit 
-            <code>
-                        src/App.js
-            </code>
-             and save to reload.
-</p>,
           <UserTable />,
         ],
         "className": "App",
@@ -223,38 +173,6 @@ ShallowWrapper {
             },
           ],
           "type": "header",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "To get started, edit ",
-              <code>
-                src/App.js
-</code>,
-              " and save to reload.",
-            ],
-            "className": "App-intro",
-          },
-          "ref": null,
-          "rendered": Array [
-            "To get started, edit ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "src/App.js",
-              },
-              "ref": null,
-              "rendered": "src/App.js",
-              "type": "code",
-            },
-            " and save to reload.",
-          ],
-          "type": "p",
         },
         Object {
           "instance": null,
