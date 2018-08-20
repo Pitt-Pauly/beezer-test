@@ -17,10 +17,10 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <header
+        <styled.header
           className="App-header"
 >
-          <img
+          <styled.img
                     alt="logo"
                     className="App-logo"
                     src="logo.svg"
@@ -28,9 +28,9 @@ ShallowWrapper {
           <h1
                     className="App-title"
           >
-                    Welcome to React
+                    Beezer Coding Test
           </h1>
-</header>,
+</styled.header>,
         <UserTable />,
       ],
       "className": "App",
@@ -40,10 +40,10 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
           "children": Array [
-            <img
+            <styled.img
               alt="logo"
               className="App-logo"
               src="logo.svg"
@@ -51,7 +51,7 @@ ShallowWrapper {
             <h1
               className="App-title"
 >
-              Welcome to React
+              Beezer Coding Test
 </h1>,
           ],
           "className": "App-header",
@@ -61,7 +61,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
               "alt": "logo",
               "className": "App-logo",
@@ -69,22 +69,22 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": null,
-            "type": "img",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Welcome to React",
+              "children": "Beezer Coding Test",
               "className": "App-title",
             },
             "ref": null,
-            "rendered": "Welcome to React",
+            "rendered": "Beezer Coding Test",
             "type": "h1",
           },
         ],
-        "type": "header",
+        "type": [Function],
       },
       Object {
         "instance": null,
@@ -105,10 +105,10 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <header
+          <styled.header
             className="App-header"
 >
-            <img
+            <styled.img
                         alt="logo"
                         className="App-logo"
                         src="logo.svg"
@@ -116,9 +116,9 @@ ShallowWrapper {
             <h1
                         className="App-title"
             >
-                        Welcome to React
+                        Beezer Coding Test
             </h1>
-</header>,
+</styled.header>,
           <UserTable />,
         ],
         "className": "App",
@@ -128,10 +128,10 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": Array [
-              <img
+              <styled.img
                 alt="logo"
                 className="App-logo"
                 src="logo.svg"
@@ -139,7 +139,7 @@ ShallowWrapper {
               <h1
                 className="App-title"
 >
-                Welcome to React
+                Beezer Coding Test
 </h1>,
             ],
             "className": "App-header",
@@ -149,7 +149,7 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
                 "alt": "logo",
                 "className": "App-logo",
@@ -157,22 +157,22 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": null,
-              "type": "img",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Welcome to React",
+                "children": "Beezer Coding Test",
                 "className": "App-title",
               },
               "ref": null,
-              "rendered": "Welcome to React",
+              "rendered": "Beezer Coding Test",
               "type": "h1",
             },
           ],
-          "type": "header",
+          "type": [Function],
         },
         Object {
           "instance": null,
