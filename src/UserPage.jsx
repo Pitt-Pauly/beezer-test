@@ -50,18 +50,10 @@ class UserPage extends Component<
     firebase
       .database()
       .ref('/')
-      .once('value')
-      .then(snapshot => {
+      .on('value', snapshot => {
         this.setState({
           apiData: snapshot.val(),
           initComplete: true
-        });
-      })
-      .catch(error => {
-        this.setState({
-          initComplete: false,
-          error: true,
-          errorInstance: error
         });
       });
   }
