@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 import logo from './logo.svg';
-import UserTable from './UserTable';
+import UserPage from './UserPage';
 
 const rotate360 = keyframes`
   from {
@@ -34,7 +34,7 @@ const App = () => (
       <Logo src={logo} className="App-logo" alt="logo" />
       <h1 className="App-title">Beezer Coding Test</h1>
     </Header>
-    <UserTable />
+    <UserPage />
   </div>
 );
 

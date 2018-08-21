@@ -1,0 +1,1380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTable renders correcty with mock data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserTable
+    accounts={
+        Object {
+            "-Kd_teAAXcw2b5MyFPIT": Object {
+              "apps": Object {
+                "cuckoosnest": Object {
+                  "title": "One Flew Over The Cuckoo’s Nest",
+                },
+              },
+            },
+          }
+    }
+    users={
+        Object {
+            "00L91c7cvUaghNmGlC0lJa9eZ102": Object {
+              "account": "-Kd_teAAXcw2b5MyFPIT",
+              "name": "Randle McMurphy",
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <caption>
+          <h2>
+                    User Information
+          </h2>
+</caption>,
+        <thead>
+          <tr>
+                    <th>
+                              <h2>
+                                        User ID
+                              </h2>
+                    </th>
+                    <th>
+                              <h2>
+                                        Name
+                              </h2>
+                    </th>
+                    <th>
+                              <h2>
+                                        Account
+                              </h2>
+                    </th>
+                    <th>
+                              <h2>
+                                        Apps
+                              </h2>
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <tr>
+                    <th>
+                              00L91c7cvUaghNmGlC0lJa9eZ102
+                    </th>
+                    <th>
+                              Randle McMurphy
+                    </th>
+                    <th>
+                              -Kd_teAAXcw2b5MyFPIT
+                    </th>
+                    <th>
+                              <ul>
+                                        <li>
+                                                  One Flew Over The Cuckoo’s Nest
+                                        </li>
+                              </ul>
+                    </th>
+          </tr>
+</tbody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2>
+            User Information
+</h2>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "User Information",
+          },
+          "ref": null,
+          "rendered": "User Information",
+          "type": "h2",
+        },
+        "type": "caption",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        <h2>
+                                    User ID
+                        </h2>
+            </th>
+            <th>
+                        <h2>
+                                    Name
+                        </h2>
+            </th>
+            <th>
+                        <h2>
+                                    Account
+                        </h2>
+            </th>
+            <th>
+                        <h2>
+                                    Apps
+                        </h2>
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                <h2>
+                                User ID
+                </h2>
+</th>,
+              <th>
+                <h2>
+                                Name
+                </h2>
+</th>,
+              <th>
+                <h2>
+                                Account
+                </h2>
+</th>,
+              <th>
+                <h2>
+                                Apps
+                </h2>
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  User ID
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "User ID",
+                },
+                "ref": null,
+                "rendered": "User ID",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  Name
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Name",
+                },
+                "ref": null,
+                "rendered": "Name",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  Account
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Account",
+                },
+                "ref": null,
+                "rendered": "Account",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  Apps
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Apps",
+                },
+                "ref": null,
+                "rendered": "Apps",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <th>
+                            00L91c7cvUaghNmGlC0lJa9eZ102
+              </th>
+              <th>
+                            Randle McMurphy
+              </th>
+              <th>
+                            -Kd_teAAXcw2b5MyFPIT
+              </th>
+              <th>
+                            <ul>
+                                          <li>
+                                                        One Flew Over The Cuckoo’s Nest
+                                          </li>
+                            </ul>
+              </th>
+</tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "00L91c7cvUaghNmGlC0lJa9eZ102",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  00L91c7cvUaghNmGlC0lJa9eZ102
+</th>,
+                <th>
+                  Randle McMurphy
+</th>,
+                <th>
+                  -Kd_teAAXcw2b5MyFPIT
+</th>,
+                <th>
+                  <ul>
+                                    <li>
+                                                      One Flew Over The Cuckoo’s Nest
+                                    </li>
+                  </ul>
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "00L91c7cvUaghNmGlC0lJa9eZ102",
+                },
+                "ref": null,
+                "rendered": "00L91c7cvUaghNmGlC0lJa9eZ102",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Randle McMurphy",
+                },
+                "ref": null,
+                "rendered": "Randle McMurphy",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "-Kd_teAAXcw2b5MyFPIT",
+                },
+                "ref": null,
+                "rendered": "-Kd_teAAXcw2b5MyFPIT",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ul>
+                    <li>
+                                        One Flew Over The Cuckoo’s Nest
+                    </li>
+</ul>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li>
+                        One Flew Over The Cuckoo’s Nest
+</li>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "cuckoosnest",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "One Flew Over The Cuckoo’s Nest",
+                      },
+                      "ref": null,
+                      "rendered": "One Flew Over The Cuckoo’s Nest",
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <caption>
+            <h2>
+                        User Information
+            </h2>
+</caption>,
+          <thead>
+            <tr>
+                        <th>
+                                    <h2>
+                                                User ID
+                                    </h2>
+                        </th>
+                        <th>
+                                    <h2>
+                                                Name
+                                    </h2>
+                        </th>
+                        <th>
+                                    <h2>
+                                                Account
+                                    </h2>
+                        </th>
+                        <th>
+                                    <h2>
+                                                Apps
+                                    </h2>
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr>
+                        <th>
+                                    00L91c7cvUaghNmGlC0lJa9eZ102
+                        </th>
+                        <th>
+                                    Randle McMurphy
+                        </th>
+                        <th>
+                                    -Kd_teAAXcw2b5MyFPIT
+                        </th>
+                        <th>
+                                    <ul>
+                                                <li>
+                                                            One Flew Over The Cuckoo’s Nest
+                                                </li>
+                                    </ul>
+                        </th>
+            </tr>
+</tbody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              User Information
+</h2>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "User Information",
+            },
+            "ref": null,
+            "rendered": "User Information",
+            "type": "h2",
+          },
+          "type": "caption",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            <h2>
+                                          User ID
+                            </h2>
+              </th>
+              <th>
+                            <h2>
+                                          Name
+                            </h2>
+              </th>
+              <th>
+                            <h2>
+                                          Account
+                            </h2>
+              </th>
+              <th>
+                            <h2>
+                                          Apps
+                            </h2>
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  <h2>
+                                    User ID
+                  </h2>
+</th>,
+                <th>
+                  <h2>
+                                    Name
+                  </h2>
+</th>,
+                <th>
+                  <h2>
+                                    Account
+                  </h2>
+</th>,
+                <th>
+                  <h2>
+                                    Apps
+                  </h2>
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    User ID
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "User ID",
+                  },
+                  "ref": null,
+                  "rendered": "User ID",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    Name
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Name",
+                  },
+                  "ref": null,
+                  "rendered": "Name",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    Account
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Account",
+                  },
+                  "ref": null,
+                  "rendered": "Account",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    Apps
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Apps",
+                  },
+                  "ref": null,
+                  "rendered": "Apps",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <th>
+                                00L91c7cvUaghNmGlC0lJa9eZ102
+                </th>
+                <th>
+                                Randle McMurphy
+                </th>
+                <th>
+                                -Kd_teAAXcw2b5MyFPIT
+                </th>
+                <th>
+                                <ul>
+                                                <li>
+                                                                One Flew Over The Cuckoo’s Nest
+                                                </li>
+                                </ul>
+                </th>
+</tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "00L91c7cvUaghNmGlC0lJa9eZ102",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th>
+                    00L91c7cvUaghNmGlC0lJa9eZ102
+</th>,
+                  <th>
+                    Randle McMurphy
+</th>,
+                  <th>
+                    -Kd_teAAXcw2b5MyFPIT
+</th>,
+                  <th>
+                    <ul>
+                                        <li>
+                                                            One Flew Over The Cuckoo’s Nest
+                                        </li>
+                    </ul>
+</th>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "00L91c7cvUaghNmGlC0lJa9eZ102",
+                  },
+                  "ref": null,
+                  "rendered": "00L91c7cvUaghNmGlC0lJa9eZ102",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Randle McMurphy",
+                  },
+                  "ref": null,
+                  "rendered": "Randle McMurphy",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "-Kd_teAAXcw2b5MyFPIT",
+                  },
+                  "ref": null,
+                  "rendered": "-Kd_teAAXcw2b5MyFPIT",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ul>
+                      <li>
+                                            One Flew Over The Cuckoo’s Nest
+                      </li>
+</ul>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <li>
+                          One Flew Over The Cuckoo’s Nest
+</li>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "cuckoosnest",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "One Flew Over The Cuckoo’s Nest",
+                        },
+                        "ref": null,
+                        "rendered": "One Flew Over The Cuckoo’s Nest",
+                        "type": "li",
+                      },
+                    ],
+                    "type": "ul",
+                  },
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`UserTable renders correcty without data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UserTable
+    accounts={null}
+    users={null}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <caption>
+          <h2>
+                    User Information
+          </h2>
+</caption>,
+        <thead>
+          <tr>
+                    <th>
+                              <h2>
+                                        User ID
+                              </h2>
+                    </th>
+                    <th>
+                              <h2>
+                                        Name
+                              </h2>
+                    </th>
+                    <th>
+                              <h2>
+                                        Account
+                              </h2>
+                    </th>
+                    <th>
+                              <h2>
+                                        Apps
+                              </h2>
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <tr>
+                    <th
+                              colSpan="4"
+                    >
+                              No user data available
+                    </th>
+          </tr>
+</tbody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2>
+            User Information
+</h2>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "User Information",
+          },
+          "ref": null,
+          "rendered": "User Information",
+          "type": "h2",
+        },
+        "type": "caption",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        <h2>
+                                    User ID
+                        </h2>
+            </th>
+            <th>
+                        <h2>
+                                    Name
+                        </h2>
+            </th>
+            <th>
+                        <h2>
+                                    Account
+                        </h2>
+            </th>
+            <th>
+                        <h2>
+                                    Apps
+                        </h2>
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                <h2>
+                                User ID
+                </h2>
+</th>,
+              <th>
+                <h2>
+                                Name
+                </h2>
+</th>,
+              <th>
+                <h2>
+                                Account
+                </h2>
+</th>,
+              <th>
+                <h2>
+                                Apps
+                </h2>
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  User ID
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "User ID",
+                },
+                "ref": null,
+                "rendered": "User ID",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  Name
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Name",
+                },
+                "ref": null,
+                "rendered": "Name",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  Account
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Account",
+                },
+                "ref": null,
+                "rendered": "Account",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2>
+                  Apps
+</h2>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Apps",
+                },
+                "ref": null,
+                "rendered": "Apps",
+                "type": "h2",
+              },
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th
+                        colSpan="4"
+            >
+                        No user data available
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <th
+              colSpan="4"
+>
+              No user data available
+</th>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "No user data available",
+              "colSpan": "4",
+            },
+            "ref": null,
+            "rendered": "No user data available",
+            "type": "th",
+          },
+          "type": "tr",
+        },
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <caption>
+            <h2>
+                        User Information
+            </h2>
+</caption>,
+          <thead>
+            <tr>
+                        <th>
+                                    <h2>
+                                                User ID
+                                    </h2>
+                        </th>
+                        <th>
+                                    <h2>
+                                                Name
+                                    </h2>
+                        </th>
+                        <th>
+                                    <h2>
+                                                Account
+                                    </h2>
+                        </th>
+                        <th>
+                                    <h2>
+                                                Apps
+                                    </h2>
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr>
+                        <th
+                                    colSpan="4"
+                        >
+                                    No user data available
+                        </th>
+            </tr>
+</tbody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              User Information
+</h2>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "User Information",
+            },
+            "ref": null,
+            "rendered": "User Information",
+            "type": "h2",
+          },
+          "type": "caption",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            <h2>
+                                          User ID
+                            </h2>
+              </th>
+              <th>
+                            <h2>
+                                          Name
+                            </h2>
+              </th>
+              <th>
+                            <h2>
+                                          Account
+                            </h2>
+              </th>
+              <th>
+                            <h2>
+                                          Apps
+                            </h2>
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  <h2>
+                                    User ID
+                  </h2>
+</th>,
+                <th>
+                  <h2>
+                                    Name
+                  </h2>
+</th>,
+                <th>
+                  <h2>
+                                    Account
+                  </h2>
+</th>,
+                <th>
+                  <h2>
+                                    Apps
+                  </h2>
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    User ID
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "User ID",
+                  },
+                  "ref": null,
+                  "rendered": "User ID",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    Name
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Name",
+                  },
+                  "ref": null,
+                  "rendered": "Name",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    Account
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Account",
+                  },
+                  "ref": null,
+                  "rendered": "Account",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h2>
+                    Apps
+</h2>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Apps",
+                  },
+                  "ref": null,
+                  "rendered": "Apps",
+                  "type": "h2",
+                },
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th
+                            colSpan="4"
+              >
+                            No user data available
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <th
+                colSpan="4"
+>
+                No user data available
+</th>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "No user data available",
+                "colSpan": "4",
+              },
+              "ref": null,
+              "rendered": "No user data available",
+              "type": "th",
+            },
+            "type": "tr",
+          },
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
