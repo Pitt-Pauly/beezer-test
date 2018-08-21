@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Beezer UserDash",
+  "name": "A simple list of the Beezer users and their apps (part of the Beezer coding challenge)",
   "icons": [
     {
       "src": "favicon.ico",
